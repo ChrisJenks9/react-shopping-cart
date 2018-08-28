@@ -1,0 +1,69 @@
+{
+        "categories": {
+            "category-1": {
+                "id": 1,
+                "title": "Matchplay Tops"
+            },
+            "category-2": {
+                "id": 2,
+                "title": "Training Tops"
+            },
+            "category-3": {
+                "id": 3,
+                "title": "Leisure Tops"
+            }
+        },
+        "discount": {
+            "FIVEOFF": {
+                "id": 1,
+                "code": "FIVEOFF",
+                "discountOff": 5
+            },
+            "TENOFF": {
+                "id": 1,
+                "code": "TENOFF",
+                "discountOff": 10
+            },
+            "FIFTEENOFF": {
+                "id": 1,
+                "code": "FIFTEENOFF",
+                "discountOff": 15
+            }
+        },
+        "products": [{
+                "id": 1,
+                "title": "Ireland IRFU 2017/18 Home Players Test S/S Rugby Shirt",
+                "image": "https://www.lovell-rugby.co.uk/products/39580.jpg",
+                "category-id": 1, 
+                "description": "Sed ut perspiciatis unde omnis iste natus error sit.",
+                "price": 44.99,
+                "stock": 5
+            },
+            {
+                "id": 2,
+                "title": "Ireland IRFU 2017/18 Alternate Players Test S/S Rugby Shirt",
+                "image": "https://www.lovell-rugby.co.uk/products/39659.jpg",
+                "category-id": 2, 
+                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                "price": 39.99,
+                "stock": 0
+            },
+            {
+                "id": 3,
+                "title": "Ireland IRFU 2017/18 Superlight Poly Rugby Training T-Shirt",
+                "image": "https://www.lovell-rugby.co.uk/products/43458.jpg",
+                "category-id": 3, 
+                "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                "price": 39.99,
+                "stock": 2
+            },
+            {
+                "id": 4,
+                "title": "Ireland IRFU 2017/18 Kids Superlight Poly Rugby Training T-Shirt",
+                "category-id": 3, 
+                "image": "https://www.lovell-rugby.co.uk/products/39606.jpg",
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "price": 44.99,
+                "stock": 8
+            }]
+}

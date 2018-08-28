@@ -1,0 +1,26 @@
+/* SINGLE PRODUCT BEGINS */
+.product-title {
+  height:55px;
+}
+
+.product-image {
+  margin: 10px 0 20px 0;
+  height:195px;
+  overflow:hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height:auto;
+}
+
+.product-add-to-cart {
+  text-align:center;
+  padding: 10px 0 30px 0;
+}
+
+.product-add-to-cart img {
+  width:60px;
+  height:auto;
+}
+/* SINGLE PRODUCT BEGINS */

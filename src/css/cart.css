@@ -1,0 +1,21 @@
+.cart {
+  margin: 40px 0 0 40px;
+  padding: 20px 0 20px 0;
+  border: 1px solid #000000
+}
+
+.cart-thumbnail img {
+  width:100%;
+  height:auto;
+}
+
+.cart-item {
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #000000;
+  margin: 0 0 20px 0;
+}
+
+.total-price {
+  padding: 20px 0 0 0;
+  text-align:right;
+}
