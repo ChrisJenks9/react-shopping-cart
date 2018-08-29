@@ -40,6 +40,18 @@ class SingleProduct extends Component{
         }
     }
 
+    inStock = () => {
+        if (this.item.stock > 0) {
+            return <Button 
+                color='info'
+                className={!this.state.isAdded ? "" : "added"}
+                onClick={() => this.addToCart(this.item.image, this.item.title, this.item.price, this.item.id)}>{!this.state.isAdded ? "ADD TO CART" : "✔ ADDED"}
+            </Button>;
+        }
+
+        return <Button color='warning'>Out Of Stock</Button>;
+    }
+
     render() {
         return (
             <Col xs='12' lg='3' md='4' className='single-product'>
@@ -48,11 +60,7 @@ class SingleProduct extends Component{
                 <p className='product-description'>{this.item.description}</p>
                 <h6 className='product-price'>£{this.item.price}</h6>
                 <div className='product-add-to-cart'>
-                    <Button 
-                        color='info'
-                        className={!this.state.isAdded ? "" : "added"}
-                        onClick={() => this.addToCart(this.item.image, this.item.title, this.item.price, this.item.id)}>{!this.state.isAdded ? "ADD TO CART" : "✔ ADDED"}
-                    </Button>
+                    <this.inStock />
                 </div>
             </Col>
         )

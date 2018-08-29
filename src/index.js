@@ -6,7 +6,7 @@ import Database from './db.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 
-class RugbyStore extends Component {
+class ShoppingCart extends Component {
     state = {
         products: Database.products,
         categories: Database.categories,
@@ -97,4 +97,4 @@ class RugbyStore extends Component {
     }
 }
 
-ReactDOM.render(<RugbyStore />, document.getElementById('root'));
+ReactDOM.render(<ShoppingCart />, document.getElementById('root'));
