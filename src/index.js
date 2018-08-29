@@ -57,7 +57,7 @@ class RugbyStore extends Component {
         });
     };
 
-    handleRedeemCode = async (discountCode) => {
+    handleRedeemCodeChange = async (discountCode) => {
         if (this.state.discount[discountCode] && this.state.discount[discountCode].code === 'FIVEOFF') {
             await this.setState({
                 currentDiscount: this.state.discount[discountCode].discountOff
@@ -71,7 +71,9 @@ class RugbyStore extends Component {
                 currentDiscount: 0
             });
         }
+    };
 
+    handleRedeemCodeClick = async () => {
         await this.handleSumTotal();
     };
 
@@ -86,7 +88,8 @@ class RugbyStore extends Component {
                     updateCart={ this.state.cartBounce }
                     cartItems={ this.state.cart }
                     removeFromCart={this.handleRemoveFromCart} 
-                    redeemCode={ this.handleRedeemCode }
+                    redeemCodeChange={ this.handleRedeemCodeChange }
+                    redeemCodeClick={ this.handleRedeemCodeClick }
                     total={ this.state.totalAmount }
                 />
             </div>
