@@ -42,7 +42,7 @@ class SingleProduct extends Component{
 
     render() {
         return (
-            <Col xs='12' lg='3' md='4'>
+            <Col xs='12' lg='3' md='4' className='single-product'>
                 <h6 className='product-title'>{this.item.title}</h6>
                 <div className='product-image'><img src={this.item.image} alt='' /></div>
                 <p className='product-description'>{this.item.description}</p>
