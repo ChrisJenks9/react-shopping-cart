@@ -1,5 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`#SingleProduct() inStock() To return add to cart button if there is > 0 stock 1`] = `
+<Button
+  className=""
+  color="info"
+  onClick={[Function]}
+  tag="button"
+>
+  ADD TO CART
+</Button>
+`;
+
+exports[`#SingleProduct() inStock() To return out of stock button if there is 0 stock 1`] = `
+<Button
+  color="warning"
+  tag="button"
+>
+  Out Of Stock
+</Button>
+`;
+
 exports[`#SingleProduct() renders with a single product without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
