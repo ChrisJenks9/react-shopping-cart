@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#SingleProduct() renders with a single product without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProduct
+    item={
+        Object {
+            "category-id": 1,
+            "description": "At vero eos et accusamus et iusto odio dignissimos.",
+            "id": 1,
+            "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+            "price": 99,
+            "stock": 5,
+            "title": "Almond Toe Court Shoes, Patent Black",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h6
+          className="product-title"
+>
+          Almond Toe Court Shoes, Patent Black
+</h6>,
+        <div
+          className="product-image"
+>
+          <img
+                    alt=""
+                    src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+          />
+</div>,
+        <p
+          className="product-description"
+>
+          At vero eos et accusamus et iusto odio dignissimos.
+</p>,
+        <h6
+          className="product-price"
+>
+          £
+          99
+</h6>,
+        <div
+          className="product-add-to-cart"
+>
+          <Unknown />
+</div>,
+      ],
+      "className": "single-product",
+      "lg": "3",
+      "md": "4",
+      "tag": "div",
+      "widths": Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ],
+      "xs": "12",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Almond Toe Court Shoes, Patent Black",
+          "className": "product-title",
+        },
+        "ref": null,
+        "rendered": "Almond Toe Court Shoes, Patent Black",
+        "type": "h6",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt=""
+            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+/>,
+          "className": "product-image",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "src": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "At vero eos et accusamus et iusto odio dignissimos.",
+          "className": "product-description",
+        },
+        "ref": null,
+        "rendered": "At vero eos et accusamus et iusto odio dignissimos.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "£",
+            99,
+          ],
+          "className": "product-price",
+        },
+        "ref": null,
+        "rendered": Array [
+          "£",
+          99,
+        ],
+        "type": "h6",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Unknown />,
+          "className": "product-add-to-cart",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h6
+            className="product-title"
+>
+            Almond Toe Court Shoes, Patent Black
+</h6>,
+          <div
+            className="product-image"
+>
+            <img
+                        alt=""
+                        src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+            />
+</div>,
+          <p
+            className="product-description"
+>
+            At vero eos et accusamus et iusto odio dignissimos.
+</p>,
+          <h6
+            className="product-price"
+>
+            £
+            99
+</h6>,
+          <div
+            className="product-add-to-cart"
+>
+            <Unknown />
+</div>,
+        ],
+        "className": "single-product",
+        "lg": "3",
+        "md": "4",
+        "tag": "div",
+        "widths": Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ],
+        "xs": "12",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Almond Toe Court Shoes, Patent Black",
+            "className": "product-title",
+          },
+          "ref": null,
+          "rendered": "Almond Toe Court Shoes, Patent Black",
+          "type": "h6",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt=""
+              src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+/>,
+            "className": "product-image",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "At vero eos et accusamus et iusto odio dignissimos.",
+            "className": "product-description",
+          },
+          "ref": null,
+          "rendered": "At vero eos et accusamus et iusto odio dignissimos.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "£",
+              99,
+            ],
+            "className": "product-price",
+          },
+          "ref": null,
+          "rendered": Array [
+            "£",
+            99,
+          ],
+          "type": "h6",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Unknown />,
+            "className": "product-add-to-cart",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
