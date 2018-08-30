@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import ShoppingCart from './shoppingCart';
+import ShoppingCart from '../shoppingCart';
 
 describe('#ShoppingCart()', () => {
   test('renders without crashing', () => {
