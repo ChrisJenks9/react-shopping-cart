@@ -1,0 +1,1598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#ProductList() renders with products without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    products={
+        Array [
+            Object {
+              "category-id": 1,
+              "description": "At vero eos et accusamus et iusto odio dignissimos.",
+              "id": 1,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 99,
+              "stock": 5,
+              "title": "Almond Toe Court Shoes, Patent Black",
+            },
+            Object {
+              "category-id": 2,
+              "description": "At vero eos et accusamus et iusto odio dignissimos.",
+              "id": 2,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 42,
+              "stock": 4,
+              "title": "Suede Shoes, Blue",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+              "id": 3,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 34,
+              "stock": 12,
+              "title": "Leather Driver Saddle Loafers, Tan",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 4,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 19,
+              "stock": 6,
+              "title": "Flip Flops, Red",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 5,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 19,
+              "stock": 0,
+              "title": "Flip Flops, Blue",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 6,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 167,
+              "stock": 6,
+              "title": "Gold Button Cardigan, Black",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 7,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 30,
+              "stock": 5,
+              "title": "Cotton Shorts, Medium Red",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 8,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 49.99,
+              "stock": 9,
+              "title": "Fine Stripe Short Sleeve Shirt, Grey",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 9,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 49.99,
+              "stock": 3,
+              "title": "Fine Stripe Short Sleeve Shirt, Green",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 10,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 75,
+              "stock": 2,
+              "title": "Sharkskin Waistcoat, Charcoal",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 11,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 175.5,
+              "stock": 1,
+              "title": "Lightweight Patch Pocket Blazer, Deer",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 12,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 270,
+              "stock": 10,
+              "title": "Bird Print Dress, Black",
+            },
+            Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 13,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 540,
+              "stock": 5,
+              "title": " Mid Twist Cut-Out Dress, Pink",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Row
+        tag="div"
+>
+        <Col
+                tag="div"
+                widths={
+                        Array [
+                                "xs",
+                                "sm",
+                                "md",
+                                "lg",
+                                "xl",
+                              ]
+                }
+                xs="12"
+        >
+                <h1>
+                        FEATURED PRODUCTS
+                </h1>
+        </Col>
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 1,
+                                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                "id": 1,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 99,
+                                "stock": 5,
+                                "title": "Almond Toe Court Shoes, Patent Black",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 2,
+                                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                "id": 2,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 42,
+                                "stock": 4,
+                                "title": "Suede Shoes, Blue",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                                "id": 3,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 34,
+                                "stock": 12,
+                                "title": "Leather Driver Saddle Loafers, Tan",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 4,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 19,
+                                "stock": 6,
+                                "title": "Flip Flops, Red",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 5,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 19,
+                                "stock": 0,
+                                "title": "Flip Flops, Blue",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 6,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 167,
+                                "stock": 6,
+                                "title": "Gold Button Cardigan, Black",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 7,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 30,
+                                "stock": 5,
+                                "title": "Cotton Shorts, Medium Red",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 8,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 49.99,
+                                "stock": 9,
+                                "title": "Fine Stripe Short Sleeve Shirt, Grey",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 9,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 49.99,
+                                "stock": 3,
+                                "title": "Fine Stripe Short Sleeve Shirt, Green",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 10,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 75,
+                                "stock": 2,
+                                "title": "Sharkskin Waistcoat, Charcoal",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 11,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 175.5,
+                                "stock": 1,
+                                "title": "Lightweight Patch Pocket Blazer, Deer",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 12,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 270,
+                                "stock": 10,
+                                "title": "Bird Print Dress, Black",
+                              }
+                }
+        />
+        <SingleProduct
+                addToCart={undefined}
+                item={
+                        Object {
+                                "category-id": 3,
+                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                "id": 13,
+                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                "price": 540,
+                                "stock": 5,
+                                "title": " Mid Twist Cut-Out Dress, Pink",
+                              }
+                }
+        />
+</Row>,
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Col
+            tag="div"
+            widths={
+                        Array [
+                                    "xs",
+                                    "sm",
+                                    "md",
+                                    "lg",
+                                    "xl",
+                                  ]
+            }
+            xs="12"
+>
+            <h1>
+                        FEATURED PRODUCTS
+            </h1>
+</Col>,
+          Array [
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 1,
+                                          "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                          "id": 1,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 99,
+                                          "stock": 5,
+                                          "title": "Almond Toe Court Shoes, Patent Black",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 2,
+                                          "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                          "id": 2,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 42,
+                                          "stock": 4,
+                                          "title": "Suede Shoes, Blue",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                                          "id": 3,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 34,
+                                          "stock": 12,
+                                          "title": "Leather Driver Saddle Loafers, Tan",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 4,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 19,
+                                          "stock": 6,
+                                          "title": "Flip Flops, Red",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 5,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 19,
+                                          "stock": 0,
+                                          "title": "Flip Flops, Blue",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 6,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 167,
+                                          "stock": 6,
+                                          "title": "Gold Button Cardigan, Black",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 7,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 30,
+                                          "stock": 5,
+                                          "title": "Cotton Shorts, Medium Red",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 8,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 49.99,
+                                          "stock": 9,
+                                          "title": "Fine Stripe Short Sleeve Shirt, Grey",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 9,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 49.99,
+                                          "stock": 3,
+                                          "title": "Fine Stripe Short Sleeve Shirt, Green",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 10,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 75,
+                                          "stock": 2,
+                                          "title": "Sharkskin Waistcoat, Charcoal",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 11,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 175.5,
+                                          "stock": 1,
+                                          "title": "Lightweight Patch Pocket Blazer, Deer",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 12,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 270,
+                                          "stock": 10,
+                                          "title": "Bird Print Dress, Black",
+                                        }
+              }
+/>,
+            <SingleProduct
+              addToCart={undefined}
+              item={
+                            Object {
+                                          "category-id": 3,
+                                          "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                          "id": 13,
+                                          "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                          "price": 540,
+                                          "stock": 5,
+                                          "title": " Mid Twist Cut-Out Dress, Pink",
+                                        }
+              }
+/>,
+          ],
+        ],
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h1>
+              FEATURED PRODUCTS
+</h1>,
+            "tag": "div",
+            "widths": Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ],
+            "xs": "12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "FEATURED PRODUCTS",
+            },
+            "ref": null,
+            "rendered": "FEATURED PRODUCTS",
+            "type": "h1",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 1,
+              "description": "At vero eos et accusamus et iusto odio dignissimos.",
+              "id": 1,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 99,
+              "stock": 5,
+              "title": "Almond Toe Court Shoes, Patent Black",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 2,
+              "description": "At vero eos et accusamus et iusto odio dignissimos.",
+              "id": 2,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 42,
+              "stock": 4,
+              "title": "Suede Shoes, Blue",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+              "id": 3,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 34,
+              "stock": 12,
+              "title": "Leather Driver Saddle Loafers, Tan",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 4,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 19,
+              "stock": 6,
+              "title": "Flip Flops, Red",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 5,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 19,
+              "stock": 0,
+              "title": "Flip Flops, Blue",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 6,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 167,
+              "stock": 6,
+              "title": "Gold Button Cardigan, Black",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 7,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 30,
+              "stock": 5,
+              "title": "Cotton Shorts, Medium Red",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 8,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 49.99,
+              "stock": 9,
+              "title": "Fine Stripe Short Sleeve Shirt, Grey",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 9,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 49.99,
+              "stock": 3,
+              "title": "Fine Stripe Short Sleeve Shirt, Green",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 10,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 75,
+              "stock": 2,
+              "title": "Sharkskin Waistcoat, Charcoal",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "11",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 11,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 175.5,
+              "stock": 1,
+              "title": "Lightweight Patch Pocket Blazer, Deer",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "12",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 12,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 270,
+              "stock": 10,
+              "title": "Bird Print Dress, Black",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "13",
+          "nodeType": "class",
+          "props": Object {
+            "addToCart": undefined,
+            "item": Object {
+              "category-id": 3,
+              "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+              "id": 13,
+              "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+              "price": 540,
+              "stock": 5,
+              "title": " Mid Twist Cut-Out Dress, Pink",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Row
+          tag="div"
+>
+          <Col
+                    tag="div"
+                    widths={
+                              Array [
+                                        "xs",
+                                        "sm",
+                                        "md",
+                                        "lg",
+                                        "xl",
+                                      ]
+                    }
+                    xs="12"
+          >
+                    <h1>
+                              FEATURED PRODUCTS
+                    </h1>
+          </Col>
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 1,
+                                        "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                        "id": 1,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 99,
+                                        "stock": 5,
+                                        "title": "Almond Toe Court Shoes, Patent Black",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 2,
+                                        "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                        "id": 2,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 42,
+                                        "stock": 4,
+                                        "title": "Suede Shoes, Blue",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                                        "id": 3,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 34,
+                                        "stock": 12,
+                                        "title": "Leather Driver Saddle Loafers, Tan",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 4,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 19,
+                                        "stock": 6,
+                                        "title": "Flip Flops, Red",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 5,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 19,
+                                        "stock": 0,
+                                        "title": "Flip Flops, Blue",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 6,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 167,
+                                        "stock": 6,
+                                        "title": "Gold Button Cardigan, Black",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 7,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 30,
+                                        "stock": 5,
+                                        "title": "Cotton Shorts, Medium Red",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 8,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 49.99,
+                                        "stock": 9,
+                                        "title": "Fine Stripe Short Sleeve Shirt, Grey",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 9,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 49.99,
+                                        "stock": 3,
+                                        "title": "Fine Stripe Short Sleeve Shirt, Green",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 10,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 75,
+                                        "stock": 2,
+                                        "title": "Sharkskin Waistcoat, Charcoal",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 11,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 175.5,
+                                        "stock": 1,
+                                        "title": "Lightweight Patch Pocket Blazer, Deer",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 12,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 270,
+                                        "stock": 10,
+                                        "title": "Bird Print Dress, Black",
+                                      }
+                    }
+          />
+          <SingleProduct
+                    addToCart={undefined}
+                    item={
+                              Object {
+                                        "category-id": 3,
+                                        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                        "id": 13,
+                                        "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                        "price": 540,
+                                        "stock": 5,
+                                        "title": " Mid Twist Cut-Out Dress, Pink",
+                                      }
+                    }
+          />
+</Row>,
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              tag="div"
+              widths={
+                            Array [
+                                          "xs",
+                                          "sm",
+                                          "md",
+                                          "lg",
+                                          "xl",
+                                        ]
+              }
+              xs="12"
+>
+              <h1>
+                            FEATURED PRODUCTS
+              </h1>
+</Col>,
+            Array [
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 1,
+                                                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                                "id": 1,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 99,
+                                                "stock": 5,
+                                                "title": "Almond Toe Court Shoes, Patent Black",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 2,
+                                                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                                                "id": 2,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 42,
+                                                "stock": 4,
+                                                "title": "Suede Shoes, Blue",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                                                "id": 3,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 34,
+                                                "stock": 12,
+                                                "title": "Leather Driver Saddle Loafers, Tan",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 4,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 19,
+                                                "stock": 6,
+                                                "title": "Flip Flops, Red",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 5,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 19,
+                                                "stock": 0,
+                                                "title": "Flip Flops, Blue",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 6,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 167,
+                                                "stock": 6,
+                                                "title": "Gold Button Cardigan, Black",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 7,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 30,
+                                                "stock": 5,
+                                                "title": "Cotton Shorts, Medium Red",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 8,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 49.99,
+                                                "stock": 9,
+                                                "title": "Fine Stripe Short Sleeve Shirt, Grey",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 9,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 49.99,
+                                                "stock": 3,
+                                                "title": "Fine Stripe Short Sleeve Shirt, Green",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 10,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 75,
+                                                "stock": 2,
+                                                "title": "Sharkskin Waistcoat, Charcoal",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 11,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 175.5,
+                                                "stock": 1,
+                                                "title": "Lightweight Patch Pocket Blazer, Deer",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 12,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 270,
+                                                "stock": 10,
+                                                "title": "Bird Print Dress, Black",
+                                              }
+                }
+/>,
+              <SingleProduct
+                addToCart={undefined}
+                item={
+                                Object {
+                                                "category-id": 3,
+                                                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                                                "id": 13,
+                                                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                                                "price": 540,
+                                                "stock": 5,
+                                                "title": " Mid Twist Cut-Out Dress, Pink",
+                                              }
+                }
+/>,
+            ],
+          ],
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <h1>
+                FEATURED PRODUCTS
+</h1>,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+              "xs": "12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "FEATURED PRODUCTS",
+              },
+              "ref": null,
+              "rendered": "FEATURED PRODUCTS",
+              "type": "h1",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 1,
+                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                "id": 1,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 99,
+                "stock": 5,
+                "title": "Almond Toe Court Shoes, Patent Black",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 2,
+                "description": "At vero eos et accusamus et iusto odio dignissimos.",
+                "id": 2,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 42,
+                "stock": 4,
+                "title": "Suede Shoes, Blue",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitatione. ",
+                "id": 3,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 34,
+                "stock": 12,
+                "title": "Leather Driver Saddle Loafers, Tan",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 4,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 19,
+                "stock": 6,
+                "title": "Flip Flops, Red",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 5,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 19,
+                "stock": 0,
+                "title": "Flip Flops, Blue",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 6,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 167,
+                "stock": 6,
+                "title": "Gold Button Cardigan, Black",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 7,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 30,
+                "stock": 5,
+                "title": "Cotton Shorts, Medium Red",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 8,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 49.99,
+                "stock": 9,
+                "title": "Fine Stripe Short Sleeve Shirt, Grey",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 9,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 49.99,
+                "stock": 3,
+                "title": "Fine Stripe Short Sleeve Shirt, Green",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 10,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 75,
+                "stock": 2,
+                "title": "Sharkskin Waistcoat, Charcoal",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "11",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 11,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 175.5,
+                "stock": 1,
+                "title": "Lightweight Patch Pocket Blazer, Deer",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "12",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 12,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 270,
+                "stock": 10,
+                "title": "Bird Print Dress, Black",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "13",
+            "nodeType": "class",
+            "props": Object {
+              "addToCart": undefined,
+              "item": Object {
+                "category-id": 3,
+                "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam.",
+                "id": 13,
+                "image": "http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png",
+                "price": 540,
+                "stock": 5,
+                "title": " Mid Twist Cut-Out Dress, Pink",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
