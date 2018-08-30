@@ -11,6 +11,7 @@ class ShoppingCart extends Component {
         products: Database.products,
         categories: Database.categories,
         discount: Database.discount,
+        discountCode: '',
         currentDiscount: 0,
         totalAmount: 0,
         cart: []
@@ -60,20 +61,26 @@ class ShoppingCart extends Component {
     handleRedeemCodeChange = async (discountCode) => {
         if (this.state.discount[discountCode] && this.state.discount[discountCode].code === 'FIVEOFF') {
             await this.setState({
+                discountCode,
                 currentDiscount: this.state.discount[discountCode].discountOff
             });
         } else if (this.state.discount[discountCode] && this.state.discount[discountCode].code === 'TENOFF' && this.state.totalAmount > 50) {
             await this.setState({
+                discountCode,
                 currentDiscount: this.state.discount[discountCode].discountOff
             });
         } else {
             await this.setState({
+                discountCode,
                 currentDiscount: 0
             });
         }
     };
 
     handleRedeemCodeClick = async () => {
+        if (!this.state.discount[this.state.discountCode]) alert('This is not a Valid Code');
+        if (this.state.discount[this.state.discountCode] && this.state.discount[this.state.discountCode].code === 'TENOFF' && this.state.totalAmount < 50) alert('Order must be over £50.00');
+        
         await this.handleSumTotal();
     };
 
