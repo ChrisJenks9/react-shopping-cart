@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`#ShoppingCart() #handleAddToCart should add a product to the cart 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "title": "Product",
+  },
+]
+`;
+
+exports[`#ShoppingCart() #handleRemoveFromCart should remove product from the cart 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "title": "Product",
+  },
+]
+`;
+
 exports[`#ShoppingCart() renders without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],

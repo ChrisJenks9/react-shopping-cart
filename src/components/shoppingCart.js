@@ -16,15 +16,15 @@ class ShoppingCart extends Component {
         cart: []
     };
 
-    handleAddToCart = (selectedProducts) => {
+    handleAddToCart = async (selectedProducts) => {
         let cartItem = this.state.cart;
-        cartItem.push(selectedProducts);
+        await cartItem.push(selectedProducts);
 
-		this.setState({
+		await this.setState({
             cart : cartItem
         });
 
-        this.handleSumTotal();
+        await this.handleSumTotal();
     }
 
     handleRemoveFromCart = async (selectedProducts) => {
@@ -43,8 +43,6 @@ class ShoppingCart extends Component {
     handleSumTotal = async () => {
         let total = 0;
         let cart = this.state.cart;
-
-        console.log(this.state.currentDiscount);
 
         await cart.map((item) => {
             return total += item.price;

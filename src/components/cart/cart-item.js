@@ -4,7 +4,6 @@ import { Container, Row, Col, Button } from 'reactstrap';
 class CartList extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       selectedProduct: {}
     }
