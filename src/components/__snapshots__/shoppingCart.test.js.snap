@@ -1,0 +1,1171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#ShoppingCart() renders without crashing 1`] = `
+Object {
+  "baseElement": <body>
+    <div>
+        <div
+            class="shopping-cart"
+        >
+            <div
+                class="container"
+            >
+                <div
+                    class="row"
+                >
+                    <div
+                        class="col-12"
+                    >
+                        <h1>
+                            FEATURED PRODUCTS
+                        </h1>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Almond Toe Court Shoes, Patent Black
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            At vero eos et accusamus et iusto odio dignissimos.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            99
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Suede Shoes, Blue
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            At vero eos et accusamus et iusto odio dignissimos.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            42
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Leather Driver Saddle Loafers, Tan
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitatione. 
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            34
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Flip Flops, Red
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            19
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Flip Flops, Blue
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            19
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                class="btn btn-warning"
+                            >
+                                Out Of Stock
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Gold Button Cardigan, Black
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            167
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Cotton Shorts, Medium Red
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            30
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Fine Stripe Short Sleeve Shirt, Grey
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            49.99
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Fine Stripe Short Sleeve Shirt, Green
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            49.99
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Sharkskin Waistcoat, Charcoal
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            75
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Lightweight Patch Pocket Blazer, Deer
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            175.5
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Bird Print Dress, Black
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            270
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="single-product col-12 col-md-4 col-lg-3"
+                    >
+                        <h6
+                            class="product-title"
+                        >
+                            Mid Twist Cut-Out Dress, Pink
+                        </h6>
+                        <div
+                            class="product-image"
+                        >
+                            <img
+                                src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                                alt=""
+                            />
+                        </div>
+                        <p
+                            class="product-description"
+                        >
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                        </p>
+                        <h6
+                            class="product-price"
+                        >
+                            £
+                            540
+                        </h6>
+                        <div
+                            class="product-add-to-cart"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-info"
+                            >
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="cart container"
+            >
+                <div
+                    class="row"
+                >
+                    <div
+                        class="col-12 col-md-10"
+                    >
+                        <h1>
+                            SHOPPING CART
+                        </h1>
+                    </div>
+                    <div
+                        class="total-price col-12 col-md-2"
+                    >
+                        <h5>
+                            Total Price
+                        </h5>
+                        0
+                    </div>
+                </div>
+                <div
+                    class="row"
+                >
+                    <div
+                        class="col-12"
+                    >
+                        <h6>
+                            Redeem Coupon
+                        </h6>
+                    </div>
+                    <div
+                        class="col-10"
+                    >
+                        <input
+                            type="text"
+                            class="form-control"
+                        />
+                    </div>
+                    <div
+                        class="col-2"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-success"
+                        >
+                            Redeem
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>,
+  "container": <div>
+    <div
+        class="shopping-cart"
+    >
+        <div
+            class="container"
+        >
+            <div
+                class="row"
+            >
+                <div
+                    class="col-12"
+                >
+                    <h1>
+                        FEATURED PRODUCTS
+                    </h1>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Almond Toe Court Shoes, Patent Black
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        At vero eos et accusamus et iusto odio dignissimos.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        99
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Suede Shoes, Blue
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        At vero eos et accusamus et iusto odio dignissimos.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        42
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Leather Driver Saddle Loafers, Tan
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitatione. 
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        34
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Flip Flops, Red
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        19
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Flip Flops, Blue
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        19
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            class="btn btn-warning"
+                        >
+                            Out Of Stock
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Gold Button Cardigan, Black
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        167
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Cotton Shorts, Medium Red
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        30
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Fine Stripe Short Sleeve Shirt, Grey
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        49.99
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Fine Stripe Short Sleeve Shirt, Green
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        49.99
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Sharkskin Waistcoat, Charcoal
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        75
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Lightweight Patch Pocket Blazer, Deer
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        175.5
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Bird Print Dress, Black
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        270
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="single-product col-12 col-md-4 col-lg-3"
+                >
+                    <h6
+                        class="product-title"
+                    >
+                        Mid Twist Cut-Out Dress, Pink
+                    </h6>
+                    <div
+                        class="product-image"
+                    >
+                        <img
+                            src="http://hranew.com/wp-content/uploads/2015/04/shop-placeholder.png"
+                            alt=""
+                        />
+                    </div>
+                    <p
+                        class="product-description"
+                    >
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                    </p>
+                    <h6
+                        class="product-price"
+                    >
+                        £
+                        540
+                    </h6>
+                    <div
+                        class="product-add-to-cart"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-info"
+                        >
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="cart container"
+        >
+            <div
+                class="row"
+            >
+                <div
+                    class="col-12 col-md-10"
+                >
+                    <h1>
+                        SHOPPING CART
+                    </h1>
+                </div>
+                <div
+                    class="total-price col-12 col-md-2"
+                >
+                    <h5>
+                        Total Price
+                    </h5>
+                    0
+                </div>
+            </div>
+            <div
+                class="row"
+            >
+                <div
+                    class="col-12"
+                >
+                    <h6>
+                        Redeem Coupon
+                    </h6>
+                </div>
+                <div
+                    class="col-10"
+                >
+                    <input
+                        type="text"
+                        class="form-control"
+                    />
+                </div>
+                <div
+                    class="col-2"
+                >
+                    <button
+                        type="button"
+                        class="btn btn-success"
+                    >
+                        Redeem
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  "debug": [Function],
+  "getAllByAltText": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
