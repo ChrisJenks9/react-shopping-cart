@@ -22,7 +22,7 @@ class Cart extends Component {
                     </Col>
                     <Col xs='12' md='2' className='total-price'>
                         <h5>Total Price</h5>
-                        { this.props.total }
+                        £{ this.props.total }
                     </Col>
                 </Row>
                 <Row>

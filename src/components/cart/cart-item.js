@@ -36,7 +36,7 @@ class CartList extends Component {
               <img src={this.props.item.image} alt='' />
             </Col>
             <Col md='6'>{this.props.item.title}</Col>
-            <Col md='2'>{this.props.item.price}</Col>
+            <Col md='2'>£{this.props.item.price}</Col>
             <Col md='2'>
             <Button  
               color='warning'

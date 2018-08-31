@@ -81,6 +81,9 @@ class ShoppingCart extends Component {
         if (this.state.discount[this.state.discountCode] && this.state.discount[this.state.discountCode].code === 'TENOFF' && this.state.totalAmount < 50) alert('Order must be over £50.00');
         
         await this.handleSumTotal();
+
+        const elements = document.getElementsByClassName('form-control');
+        elements[0].value = '';
     };
 
     render() {
