@@ -35,8 +35,6 @@ class SingleProduct extends Component{
                     });
                 }, 3500);
             });
-        } else {
-            console.log('Item already added to cart!');
         }
     }
 

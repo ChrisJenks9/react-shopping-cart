@@ -50,6 +50,8 @@ class ShoppingCart extends Component {
 
         total -= this.state.currentDiscount;
 
+        if (total < 0) total = 0;
+
 		await this.setState({
 			totalAmount: total
         });
